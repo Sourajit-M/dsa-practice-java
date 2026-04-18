@@ -1,3 +1,4 @@
+import java.util.*;
 public class MiddleOfLinkedList extends Linkedlist {
     public int middle() {
         Node slow = head;
@@ -20,5 +21,12 @@ public class MiddleOfLinkedList extends Linkedlist {
         list.add_last(5);
 
         System.out.println(list.middle());
+
+
+        List<Integer> arr = new LinkedList<>();
+        arr.add(1);
+        arr.add(2);
+        arr.add(3);
+        arr.add(4);
     }
 }

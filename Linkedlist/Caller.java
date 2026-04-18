@@ -1,4 +1,4 @@
-public class Main {
+public class Caller {
     public static void main(String[] args) {
         Linkedlist list = new Linkedlist();
         list.add_last(1);
